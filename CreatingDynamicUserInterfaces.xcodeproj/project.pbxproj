@@ -14,6 +14,11 @@
 		43FB968422144D86009D1F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FB968222144D86009D1F4D /* LaunchScreen.storyboard */; };
 		43FB968F22144D86009D1F4D /* CreatingDynamicUserInterfacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FB968E22144D86009D1F4D /* CreatingDynamicUserInterfacesTests.swift */; };
 		43FB969A22144D86009D1F4D /* CreatingDynamicUserInterfacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FB969922144D86009D1F4D /* CreatingDynamicUserInterfacesUITests.swift */; };
+		43FB96AC221481AB009D1F4D /* 445430_02_04_MM30_ConstraintAnatony in Resources */ = {isa = PBXBuildFile; fileRef = 43FB96A7221481A9009D1F4D /* 445430_02_04_MM30_ConstraintAnatony */; };
+		43FB96AD221481AB009D1F4D /* 445430_02_05_XR15_layoutmarginsandguides in Resources */ = {isa = PBXBuildFile; fileRef = 43FB96A8221481A9009D1F4D /* 445430_02_05_XR15_layoutmarginsandguides */; };
+		43FB96AE221481AB009D1F4D /* 445430_02_03_XR15_workingwithconstraints in Resources */ = {isa = PBXBuildFile; fileRef = 43FB96A9221481AA009D1F4D /* 445430_02_03_XR15_workingwithconstraints */; };
+		43FB96AF221481AB009D1F4D /* 445430_02_02_XR15_creatingautolayoutconstraint in Resources */ = {isa = PBXBuildFile; fileRef = 43FB96AA221481AA009D1F4D /* 445430_02_02_XR15_creatingautolayoutconstraint */; };
+		43FB96B0221481AB009D1F4D /* 445430_02_01_MM30_AutoLayout in Resources */ = {isa = PBXBuildFile; fileRef = 43FB96AB221481AB009D1F4D /* 445430_02_01_MM30_AutoLayout */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		43FB969522144D86009D1F4D /* CreatingDynamicUserInterfacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatingDynamicUserInterfacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FB969922144D86009D1F4D /* CreatingDynamicUserInterfacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingDynamicUserInterfacesUITests.swift; sourceTree = "<group>"; };
 		43FB969B22144D86009D1F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43FB96A7221481A9009D1F4D /* 445430_02_04_MM30_ConstraintAnatony */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 445430_02_04_MM30_ConstraintAnatony; sourceTree = "<group>"; };
+		43FB96A8221481A9009D1F4D /* 445430_02_05_XR15_layoutmarginsandguides */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 445430_02_05_XR15_layoutmarginsandguides; sourceTree = "<group>"; };
+		43FB96A9221481AA009D1F4D /* 445430_02_03_XR15_workingwithconstraints */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 445430_02_03_XR15_workingwithconstraints; sourceTree = "<group>"; };
+		43FB96AA221481AA009D1F4D /* 445430_02_02_XR15_creatingautolayoutconstraint */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 445430_02_02_XR15_creatingautolayoutconstraint; sourceTree = "<group>"; };
+		43FB96AB221481AB009D1F4D /* 445430_02_01_MM30_AutoLayout */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 445430_02_01_MM30_AutoLayout; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		43FB967822144D85009D1F4D /* CreatingDynamicUserInterfaces */ = {
 			isa = PBXGroup;
 			children = (
+				43FB96B1221481CD009D1F4D /* Slides */,
 				43FB967922144D85009D1F4D /* AppDelegate.swift */,
 				43FB967B22144D85009D1F4D /* ViewController.swift */,
 				43FB967D22144D85009D1F4D /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				43FB969B22144D86009D1F4D /* Info.plist */,
 			);
 			path = CreatingDynamicUserInterfacesUITests;
+			sourceTree = "<group>";
+		};
+		43FB96B1221481CD009D1F4D /* Slides */ = {
+			isa = PBXGroup;
+			children = (
+				43FB96A8221481A9009D1F4D /* 445430_02_05_XR15_layoutmarginsandguides */,
+				43FB96A7221481A9009D1F4D /* 445430_02_04_MM30_ConstraintAnatony */,
+				43FB96A9221481AA009D1F4D /* 445430_02_03_XR15_workingwithconstraints */,
+				43FB96AA221481AA009D1F4D /* 445430_02_02_XR15_creatingautolayoutconstraint */,
+				43FB96AB221481AB009D1F4D /* 445430_02_01_MM30_AutoLayout */,
+			);
+			path = Slides;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +253,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				43FB968422144D86009D1F4D /* LaunchScreen.storyboard in Resources */,
+				43FB96AD221481AB009D1F4D /* 445430_02_05_XR15_layoutmarginsandguides in Resources */,
+				43FB96AC221481AB009D1F4D /* 445430_02_04_MM30_ConstraintAnatony in Resources */,
+				43FB96B0221481AB009D1F4D /* 445430_02_01_MM30_AutoLayout in Resources */,
 				43FB968122144D86009D1F4D /* Assets.xcassets in Resources */,
+				43FB96AF221481AB009D1F4D /* 445430_02_02_XR15_creatingautolayoutconstraint in Resources */,
+				43FB96AE221481AB009D1F4D /* 445430_02_03_XR15_workingwithconstraints in Resources */,
 				43FB967F22144D85009D1F4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
